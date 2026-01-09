@@ -277,6 +277,7 @@ nav .btn a{
 #challange{
     background-color: #FFFFFF;
     text-align: center;
+    margin-top: 120px;
 }
 #challange .middle{
     max-width: 84%;
@@ -333,7 +334,7 @@ nav .btn a{
     background-color: #001931;
     margin: 0;
     margin-top: 90px;
-   
+    height: 300px;
 }
 #fotts .foot{
     width: 84%;
@@ -345,6 +346,27 @@ nav .btn a{
     padding-top: 120px;
     
 }
+#fotts .social h5{
+    font-size: 20px;
+    font-weight: 600px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+#fotts .social i{
+    margin-top: 0;
+    color: white;
+    align-items: center;
+    size: 20px;
+}
+#fotts .copy{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    
+}
+
+
 
 
 
