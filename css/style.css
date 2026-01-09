@@ -328,6 +328,23 @@ nav .btn a{
 #challange .early:hover{
     background-color: black;
 }
+#fotts{
+
+    background-color: #001931;
+    margin: 0;
+    margin-top: 90px;
+   
+}
+#fotts .foot{
+    width: 84%;
+    max-width: 1360px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 120px;
+    
+}
 
 
 
