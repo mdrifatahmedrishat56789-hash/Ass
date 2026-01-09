@@ -1,0 +1,336 @@
+*{
+    box-sizing: border-box;
+
+}
+header{
+    background-color: #FFFFFF;
+    margin: 0;
+}
+nav{
+    width: 100%;
+    max-width: 1600px;
+    margin:  auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    padding-top: 20px;
+
+
+
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    font-size: 16px;
+    font-weight: 500px;
+   
+}
+nav ul a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500px;
+
+}
+nav .btn {
+    max-width: 164px;
+    height: 44px;
+    padding: 12px 16px;
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+
+
+
+}
+nav .btn a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+.list .btns:hover{
+    background-color:yellow;
+    border-radius: 5px;
+}
+.button .btn:hover{
+    background-color:black;
+}
+#banner{
+    height: 674px;
+
+    text-align: center;
+    background-image:  url(..//assets/hero-bg.png) ;
+    margin:24px auto;
+    box-sizing: border-box;
+
+
+    
+
+}
+#banner .ban{
+    max-height: 1360px;
+    padding-top: 115px; 
+
+}
+#banner .ban  .btns {
+    max-width: 229px;
+    height: 35px;
+    border: none;
+    border-radius: 1000px;
+    background-color: #FFFFFF;
+
+
+    
+}
+#banner .ban  .btns a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    box-sizing: border-box;
+    color: #469165;
+}
+
+#banner .head{
+    width: 48%;
+    max-width: 770px;
+    margin: 0 auto;
+}
+
+
+
+
+#banner .head h1{
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+#banner .para {
+
+    max-width: 770px;
+    margin: 0 auto;
+}
+#banner .para p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    color: #FFFFFF;
+    line-height: 24px;
+
+}
+
+#banner .btnn {
+    width: 251px;
+    height: 52px;
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+
+}
+#banner .btnn a{
+    font-size: 17px;
+    font-weight: 600pxs;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+
+
+}
+
+#banner .btnn image{
+   padding-top: 16px;
+   height: 15px;
+   width: 13px;
+}
+#banner .buttons .btnnn{
+    width: 251px;
+    height: 52px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+#banner .btnnn a{
+    font-size: 17px;
+    font-weight: 600pxs;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#card{
+    width: 84%;
+    max-width: 1600px;
+    margin: 80px auto;
+}
+#card .fail{
+    align-items: center;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+
+}
+#card .fail h1{
+    font:48px;
+    font-weight: bold;
+    color: #001931;
+
+}
+#card .fail p{
+    font: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+#card .cards{
+    margin-top: 44px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    border: 1px so;
+
+    
+}
+.notes img{
+    background-color: #F95555;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: 69px;
+    
+
+}
+#card .cards .notes{
+    align-items: center;
+    text-align: center;
+    max-width: 322px;
+    height: 400px;
+    box-sizing: border-box;
+    border: none;
+    box-shadow: 0 6px 50px 0 #cec9c9;
+    padding: 24px;
+
+}
+.notes h1{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font: 30px;
+    font-weight: 600px;
+
+
+}'
+ .notes p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font: 16px;
+    line-height: 20px;
+
+}
+#light{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 84%;
+    width: 1360px;
+    margin-top: 120px;
+
+
+
+}
+#light .lists h4{
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    color: #469165;
+}
+#light .lists h1{
+    max-width: 700px;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+
+}
+#light .lists p{
+    max-width: 700px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+#light .lists ul{
+    max-width: 700px;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+
+
+}
+#challange{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+#challange .middle{
+    max-width: 84%;
+    width: 1360px;
+    height: 384px;
+    background-color: #F7F6F2;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 12px;
+
+    
+}
+#challange .main{
+    padding-top: 80px;
+}
+#challange .main h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+#challange .main p{
+    max-width: 611px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    color: #627382;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+#challange .early{
+    width: 251px;
+    height: 52px;
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    align-items: center;
+}
+#challange .early a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    
+}
+#challange .early:hover{
+    background-color: black;
+}
+
+
+
+
+
+
