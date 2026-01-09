@@ -138,7 +138,7 @@ nav .btn a{
 }
 #banner .btnn a{
     font-size: 17px;
-    font-weight: 600pxs;
+    font-weight: 500px;
     text-align: center;
     color: white;
     text-decoration: none;
@@ -151,6 +151,20 @@ nav .btn a{
    height: 15px;
    width: 13px;
 }
+.btnn:hover{
+    background-color: #469165;
+}
+#banner .buttons{
+    display: flex;
+    align-items: center;
+    margin: 0 auto; 
+    gap: 24px;
+    width: 665px;
+    
+} 
+#banner .buttons .start{
+    align-items: center;
+}
 #banner .buttons .btnnn{
     width: 251px;
     height: 52px;
@@ -160,7 +174,7 @@ nav .btn a{
 }
 #banner .btnnn a{
     font-size: 17px;
-    font-weight: 600pxs;
+    font-weight: 600px;
     text-align: center;
     color: #FFFFFF;
     text-decoration: none;
@@ -363,7 +377,7 @@ nav .btn a{
     text-align: center;
     color: white;
     font-size: 16px;
-    
+    line-height: 24px;
 }
 
 
